@@ -1,0 +1,356 @@
+
+.background4{
+    /*background-color: rgb(15, 14, 10);*/
+    width: 100%;
+    margin-top: 0vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(37, 37, 37, 0.573)), url("./img/AI-for-Future-Healthcare.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container_bg4{
+    padding-top: 35vh;
+    color: #000000;
+    padding-bottom: 15vh;
+    margin-left: 8.33%;
+    margin-right: 8.33%;
+}
+
+.car_categories {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%; 
+    margin: 0 auto; 
+}
+
+.scroll_list {
+    display: flex;
+    gap: 300px;
+    padding: 0 10px;
+}
+
+
+.category img {
+    width: 168px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+.category h2 {
+    margin-top: 10px;
+    color: #000000;
+}
+
+.viewall_button{
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.viewall_button button{
+  font-size: 2vw;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.viewall_button button:hover{
+  background-color: #000000;
+	color: #ffffff;
+  transition: 0.8s;
+}
+
+
+
+
+
+  
+  .background5{
+    background-image: linear-gradient(rgba(51, 51, 51, 0.75),rgba(37, 37, 37, 0.573)), url("medical-banner-with-doctor-wearing-stethoscope.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+  }
+
+  .bg5contents{
+    color: #dbdbdb;
+
+  }
+
+  .bg5contents h1{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    font-size: 3vw;
+  }
+
+  .bg5contents p{
+    width: 30%;
+    margin-right: auto;
+    margin-left: 28.33%;
+    padding-top: 2%;
+    font-size: 1.5vw;
+  }
+
+  .bg5contents button{
+    width: auto;
+    margin-left: 28.33%;
+    margin-right: auto;
+    border-radius: 10px;
+    font-size: 1.3vw;
+    cursor: pointer;
+    margin-top: 3%;
+  }
+
+  .bg5contents button:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transition: 0.8s;
+  }
+
+
+
+  /* background6 */
+
+  .background6{
+    background-color: rgb(43, 49, 51);
+    background-size: auto;
+    height: 70vh;
+    background: url(./img/4steping.jpg);
+    background-repeat: no-repeat;
+    background-size: 1350px 500px;
+   
+  }
+
+  .bg5_body{
+    display: flex;
+    font-size: 2.6vw;
+  }   
+
+  .bg6_contents{
+    margin-left: auto;
+    margin-right: auto;
+    width: 83.34%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: rgb(236, 236, 236);
+    text-align: center;
+  }
+
+  .bg6_contents h1{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: -52%;
+    font-size: 3vw;
+    padding-bottom: 5%;
+  }
+
+
+  /* background7 */
+  
+  .background7{
+    background-color: rgb(63, 67, 69);
+    background-size: contain;
+  }
+
+  .bg7_header{
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+  }
+
+  .bg7_header h1{
+    font-size: 4vw;
+    padding-bottom: 5%;
+  }
+
+  .bg7_clients{
+    display: flex;
+    gap: 30px;
+    padding: 0 10px;
+  }
+
+  .bg7_clients img{
+    width: 100px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 3%;
+  }
+
+  .client{
+    flex: 0 0 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bg7_contents{
+    padding-bottom: 5%;
+    color: #dbdbdb; 
+  }
+
+  .bg7_contents button{
+    margin-left: 45%;
+    margin-right: 45%;
+    font-size: 1.3vw;
+    margin-top: 5%;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .bg7_contents button:hover{
+    background-color: #dbdbdb;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
+
+.navdiv{
+  width: 100%;
+  height: 65px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:rgb(240, 255, 240) ;
+  z-index: 1000;
+}
+
+.logo{
+  top: 10%;
+}
+
+.logo img{
+
+  width : 100px;
+  height : 75px;
+  margin-top: 35%;
+  margin-left: 15%;
+}
+
+
+.navbar li{
+  list-style: none;
+  background-color:transparent ;
+  padding: 0px;
+  margin : 0px;
+  overflow: hidden;
+  float:left;
+}
+
+.navbar a{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.navbar li:hover{
+  background-color: #69c1c4;
+  color:white;
+  border-radius: 10px;
+}
+
+
+.search-icon{
+  color: rgb(113, 110, 110);
+  width: 30px;
+  height: 30px;
+}
+
+
+
+button {
+  background-color: #9abfdd;
+  margin-left: 10px;
+  border: 0px;
+  border-radius: 25px;
+  padding: 1px;
+  width: 100px;
+  transition: box-shadow 0.25s;
+}
+
+button a{
+  color: white;
+  font-family:'Cinzel';
+  font-weight: bold;
+}
+
+button:hover{
+  box-shadow : 0 0 8px rgb(132, 158, 136);
+  border-radius: 30px;
+  padding: 7px;
+  width: 120px;
+}
+
+
+.maindiv{
+  width: 100%;
+  height: 1546px;
+  top: 100px;
+  z-index: 999;
+
+}
+
+/*Footer styling*/
+.footer {
+  width: 100%;
+  height: 250px;
+  bottom: 0;
+  left: 0;
+  display:outside;
+  align-items: center;
+  justify-content: space-between;
+  background-color:rgb(164, 189, 164) ;
+}
+
+
+.table {
+  border: 0;
+  padding: 50px;
+  margin-left: 24%;
+  margin-top: 10%;
+}
+
+.table td{
+  width: 59px;
+}
+
+.table img{
+
+  width: 40px;
+  height: 40px;
+}
+.fotnumbr{
+  height:320px;
+     width: 410px;
+      float:right;
+    align-content: center;
+    margin-top:  -280px;
+  
+}
+.B1 {
+	padding: 10px 20px;
+	background-color: #45a049;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  @media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+}

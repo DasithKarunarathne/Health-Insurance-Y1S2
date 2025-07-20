@@ -1,0 +1,47 @@
+body{
+    background-color:bisque;
+    background-image: url("./img/WhatsApp\ Image\ 2024-05-06\ at\ 6.00.35\ PM.jpeg");
+    align-items:center;
+    justify-content:center;
+    background-size:100% 100%;
+    background-repeat:no-repeat ;
+}
+.ja{
+    background-color:blueviolet;
+    padding-right: 100px;
+    background-color: antiquewhite;
+
+}
+.ka{
+
+    border:15px solid red;
+    margin-left:300px ;
+    margin-right:300px ;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    padding-top:100px ;
+    padding-bottom:50px ;
+}
+.Te{
+    width:30px;
+}
+
+.up{
+    margin-left:300px;
+    width:20%;
+    background-color: chartreuse;
+    height:5%;
+}
+.ch{
+    text-align:center;
+    font-size:80px;
+    color:darkviolet;
+    background-color:rgb(15, 15, 1);
+}
+img{
+    border-radius:8px;
+}
+.form{
+    background: transparent;
+    backdrop-filter: blur(20px);
+}

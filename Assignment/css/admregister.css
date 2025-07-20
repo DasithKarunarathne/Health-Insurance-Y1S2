@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./img/AI_i_sundhed.png");
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.regis{
+    background:transparent;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    text-align: center;
+    width: 95%;
+    max-width: 900px;
+    margin-top: 65px;
+    margin-bottom: 60px;
+    margin-right: 300px;
+    opacity: 0.9;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    
+
+
+}.regis-form {
+    display: flex;
+    flex-direction: column;
+}
+.regis h1 {
+    color: #000000;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+.setall{
+    margin-bottom: 10px;
+    text-align: left;
+}
+label{
+    cursor: default;
+    font-size: 16px;
+    text-align: left;
+    
+    
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="date"],input[type="number"], textarea, select {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f8f8f8;
+}
+input[type="password"] {
+    width: 95%;
+    padding: 12px;
+    -webkit-text-security: disc !important;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+button {
+    background-color: #417cd4;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 24px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+    width: 20%;
+    margin-left: 350px;
+    margin-top: 15px;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.reme{
+    
+    margin-top: 10px;
+}
+.link{
+    margin-top: 15px;
+    margin-left: 300px;
+}
+.repass{
+    margin-top: 15px;
+}
+.pnp {
+    margin-top: 15px;
+    margin-left: 300px;
+}
+
+

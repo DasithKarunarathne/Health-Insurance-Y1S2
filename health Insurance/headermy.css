@@ -1,0 +1,129 @@
+
+.navdiv{
+    width: 100%;
+  height: 85px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(240, 255, 240) ;
+    z-index: 1000;
+
+}
+
+.logo{
+    top: 10%;
+}
+
+.logo img{
+
+    width : 100px;
+  height : 75px;
+  margin-top: 25%;
+  margin-left: 15%;
+}
+
+
+.navbar li{
+    list-style: none;
+    background-color:transparent ;
+    padding: 0px;
+    margin : 0px;
+    overflow: hidden;
+    float:left;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar li:hover{
+    background-color: #69c1c4;
+    color:white;
+    border-radius: 10px;
+}
+
+
+.search-icon{
+    color: rgb(113, 110, 110);
+    width: 25px;
+    height: 25px;
+}
+
+
+
+button {
+    background-color: #9abfdd;
+    margin-left: 10px;
+    border: 0px;
+    border-radius: 25px;
+    padding: 1px;
+    width: 120px;
+    transition: box-shadow 0.25s;
+}
+
+button a{
+    color: white;
+    font-family:'Cinzel';
+    font-weight: bold;
+}
+
+button:hover{
+    box-shadow : 0 0 8px rgb(132, 158, 136);
+    border-radius: 30px;
+    padding: 7px;
+    width: 120px;
+}
+
+
+.maindiv{
+    width: 100%;
+    height: 1000px;
+    top: 100px;
+    z-index: 999;
+
+}
+
+/*Footer styling*/
+.footer {
+    width: 100%;
+    height: 250px;
+    bottom: 0;
+    left: 0;
+    display:outside;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(164, 189, 164) ;
+}
+
+
+.table {
+    border: 0;
+    padding: 50px;
+    margin-left: 24%;
+    margin-top: 10%;
+}
+
+.table td{
+    width: 59px;
+}
+
+.table img{
+
+    width: 30px;
+    height: 30px;
+}
+.fotnumbr{
+    height:320px;
+     width: 410px;
+      float:right;
+    align-content: center;
+    margin-top:  -280px;
+    
+}

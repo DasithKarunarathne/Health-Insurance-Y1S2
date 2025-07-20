@@ -1,0 +1,48 @@
+.email{
+    margin-left:500px;
+    background-color:white;
+    margin-right:500px;
+    margin-top:300px;
+    font-size:40px;
+    margin-bottom:50px;
+    border-radius:4px;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    background:linear-gradient(to right,#0f2027,#203a43,#2c5364);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(email0919.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.up{
+    margin-left:200px;
+    width:100px;
+    height:30px;
+    border-color:#ff3860;
+    color:blue;
+    
+}
+.ka{
+    
+    width:400px;
+    height:40px;
+    border-color:#09c372;
+}
+.email-label{
+   font-size:15px;
+}
+#email-error{
+    font-size:20px;
+    color:red;
+    transition:top 0.5s;
+}
+.form{
+    background: transparent;
+    backdrop-filter:blur(20px) ;
+}
+
+/* emailform.css */
+

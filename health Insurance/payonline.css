@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    min-height: 80vh;
+    width: 100%;
+    background-image:  url(./img/kel.jpeg);
+    background-position: top;
+    background-size:cover;
+    position: relative;
+}
+.pic-box{
+    color: #fff;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+
+.pic-box p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.pic-box h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.mid .mid-part{
+    background-color: beige;
+    display: flex;
+    margin:40px 25%;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.mid-part h3{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.mid-part p{
+    padding: 25px 25px;
+    line-height: 1.3;
+    font-size: 20px;
+}
+
+.mid-part input{
+    padding: 10px 50px;
+}
+
+.mid-part .btn{
+    border-radius: 4px;
+    border: 1px solid;
+    font-size: 13px;
+    background-color:darkseagreen;
+    border-color: blanchedalmond;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.5s;
+    outline: none;
+    border: none;
+    
+}
+.btn:hover{
+    background-color: rgb(66, 70, 54);
+}
